@@ -7,7 +7,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-i 
+i
 {
     display: none;
 }
@@ -19,7 +19,7 @@ i
 .hero
 {
     width: 100%;
-    height: 747px;
+    height: 854px;
     position: relative;
     padding: 0 5%;
     display: flex;
@@ -74,25 +74,10 @@ i
 .back-video
 {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
     z-index: -1;
-}
-@media (min-aspect-ratio: 16/9)
-{
-    .back-video
-    {
-        width: 100%;
-        height: auto;
-    }
-}
-@media (max-aspect-ratio: 16/9)
-{
-    .back-video
-    {
-        width: auto;
-        height: 100%;
-    }
 }
 .white
 {
@@ -113,7 +98,7 @@ i
     font-size: 30px;
     margin-bottom: 20px;
 }
-.word b
+.word h2
 {
     font-size: 50px;
     margin-bottom: 40px;
@@ -159,7 +144,7 @@ i
     width: 50%;
     margin: 0px 80px 0px 100px;
 }
-.word2 h2
+.word2 h3
 {
     padding-top: 100px;
     font-size: 50px;
@@ -246,7 +231,7 @@ i
     margin-top: 20px;
     color: rgb(175, 175, 175);
 }
-.col1 h1, .col2 h1, .col3 h1
+.col1 h4, .col2 h4, .col3 h4
 {
     text-decoration: none;
     margin-top: 20px;
@@ -270,62 +255,6 @@ i
     font-size: 21px;
     width: 300px;
     color: rgb(108, 108, 108);
-}
-.health
-{
-    width: 100%;
-    height: 800px;
-}
-.health-container
-{
-    width: 1519px;
-    margin: auto;
-}
-.c1, .c2, .c3
-{
-    float: right;
-    margin: 0px 0px 0px 15px;
-}
-.c2
-{
-    margin: 50px 30px 50px 30px;
-    width: 530px;
-}
-.c2 h2
-{
-    font-size: 45px;
-    margin-bottom: 30px;
-}
-.c2 p
-{
-    font-size: 18px;
-    letter-spacing: 1.5px;
-    line-height: 35px;
-    color: rgb(113, 113, 113);
-    margin-bottom: 60px;
-}
-.c3 img
-{
-    width: 110px;
-}
-.c1 img
-{
-    height: 700px;
-}
-.learnmore a
-{
-    padding: 20px 150px 20px 15px;
-    font-size: 20px;
-    border: 1px solid #182DA7;
-    background-color: #182DA7;
-    color: #fff;
-    text-decoration: none;
-    transition: 0.5s;
-}
-.learnmore a:hover
-{
-    background-color: #6373d0;
-    font-size: 20px;
 }
 .environment
 {
@@ -353,7 +282,7 @@ i
     float: left;
     padding: 80px 30px 20px 30px;
 }
-.co3 h2
+.co3 h5
 {
     font-size: 50px;
     margin-bottom: 40px;
@@ -390,6 +319,62 @@ i
     background-color: #5768c8;
     font-size: 20px;
 }
+.health
+{
+    width: 100%;
+    height: 800px;
+}
+.health-container
+{
+    width: 1519px;
+    margin: auto;
+}
+.c1, .c2, .c3
+{
+    float: right;
+    margin: 0px 0px 0px 15px;
+}
+.c2
+{
+    margin: 50px 30px 50px 30px;
+    width: 530px;
+}
+.c2 h6
+{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.c2 p
+{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height: 35px;
+    color: rgb(113, 113, 113);
+    margin-bottom: 60px;
+}
+.c3 img
+{
+    width: 110px;
+}
+.c1 img
+{
+    height: 700px;
+}
+.learnmore a
+{
+    padding: 20px 150px 20px 15px;
+    font-size: 20px;
+    border: 1px solid #182DA7;
+    background-color: #182DA7;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.learnmore a:hover
+{
+    background-color: #6373d0;
+    font-size: 20px;
+}
 .bottom
 {
     margin: auto;
@@ -403,11 +388,15 @@ i
     color: #fff;
     font-size: 60px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 0px 0 30px 150px;
-    padding-top: 50px;
+    margin-left: 150px;
+}
+.history
+{
+    padding-top: 30px;
 }
 .bottom h1
 {
+    margin-top: 50px;
     margin-left: 150px;
     color: #fff;
     border: 1px solid rgb(128, 128, 128);
@@ -564,25 +553,10 @@ i
 .back-video
 {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
     z-index: -1;
-}
-@media (min-aspect-ratio: 16/9)
-{
-    .back-video
-    {
-        width: 100%;
-        height: auto;
-    }
-}
-@media (max-aspect-ratio: 16/9)
-{
-    .back-video
-    {
-        width: auto;
-        height: 100%;
-    }
 }
 .white
 {
@@ -1551,25 +1525,10 @@ i
 .back-video
 {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
     z-index: -1;
-}
-@media (min-aspect-ratio: 16/9)
-{
-    .back-video
-    {
-        width: 100%;
-        height: auto;
-    }
-}
-@media (max-aspect-ratio: 16/9)
-{
-    .back-video
-    {
-        width: auto;
-        height: 100%;
-    }
 }
 .white
 {
