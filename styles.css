@@ -58,7 +58,7 @@ i
 {
     color: black;
 }
-.content h1
+.content b
 {
     text-align: center;
     font-size: 100px;
@@ -103,7 +103,7 @@ i
     font-size: 50px;
     margin-bottom: 40px;
 }
-.word p
+.word h3
 {
     font-size: 18px;
     color: rgb(98, 98, 98);
